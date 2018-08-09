@@ -1,0 +1,21 @@
+Hi Jonathan,
+
+Here are the instructions for today's second coding challenge. We'll use screen sharing for this, so you can work on your computer, using whatever IDE/tool stack you'd like to, but I'll need to see what you're working on.
+
+1. Create a basic Angular 6 app locally using the IDE of your choice, launch in broswer
+2. On application launch, consume the following REST API endpoint and load a list of apartment advertisements: https://api.mcmakler.de/v1/advertisements
+3. Display the first 10 advertisements on the page, using a layout similar to the attached screenshot. Make some effort to add some styling to it, but don't spend too much time on it
+
+4. Bonus: add a dropdown control to change the sorting order of the list by at least 3 of the visible fields
+5. Bonus: add unit tests for the services/components you create
+
+Relevant fields from JSON:
+
+- Top right corder: hasFurniture (furnished/unfurnished)
+- Image: advertisementAssets > advertisementThumbnails > inventory_m > url (titlePicture needs to be set to true)
+- Bold text: title
+- Sub text: realestateSummary > address > number, street / city
+- Price: advertisementPrice > baseRent
+- Bottom right corder: realestateSummary > numberOfRooms | realestateSummary > space
+
+I'll call you shortly.
